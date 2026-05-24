@@ -1,5 +1,5 @@
 import React from 'react';
-import { Smartphone, Battery, Signal, Zap, ChevronRight, User } from 'lucide-react';
+import { Smartphone, Zap, ChevronRight, User } from 'lucide-react';
 
 const Home = ({ onStartDiagnostic }) => {
   return (
@@ -15,10 +15,7 @@ const Home = ({ onStartDiagnostic }) => {
             <h2 style={{ fontSize: '1.2rem', margin: 0 }}>Usuario WOM</h2>
           </div>
         </div>
-        <div style={{ display: 'flex', gap: '8px' }}>
-          <Signal size={20} />
-          <Battery size={20} />
-        </div>
+
       </header>
 
       {/* Saldo y Gigas */}
